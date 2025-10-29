@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#85009688"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+<!-- <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#DA03F4D0"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="811dp" />   -->
+
+
+    <TextView
+        android:id="@+id/flashcard_question"
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:background="#68B53F"
+        android:backgroundTint="#2196F3"
+        android:backgroundTintMode="src_in"
+        android:gravity="center"
+        android:text="Who is the 44th president of the United States?"
+        android:textSize="40sp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="6dp"
+        tools:text="who is the 44th president of the United States?"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/flashcard_response"
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:background="#FFEB3B"
+        android:backgroundTint="#00BCD4"
+        android:backgroundTintMode="src_in"
+        android:gravity="center"
+        android:text="Barack Obama"
+        android:textSize="40sp"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="6dp"
+        tools:text="Barack Obama
+"
+        tools:visibility="invisible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
